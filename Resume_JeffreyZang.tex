@@ -1,0 +1,235 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+% !TEX program = xelatex
+% !TEX TS-program = xelatex
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+
+% Use system fonts — compile with XeLaTeX or LuaLaTeX
+\usepackage{fontspec}
+% Do not alter ligatures globally (some system fonts don't expose the feature cleanly)
+\defaultfontfeatures{}
+% Set Helvetica Neue as the primary font family
+\setmainfont[LetterSpace=0.01]{Helvetica Neue}
+\setsansfont[LetterSpace=0.01]{Helvetica Neue}
+
+    % Monospace font (use a common system mono)
+    \IfFontExistsTF{Menlo}{\setmonofont{Menlo}}{\setmonofont{Courier New}}
+
+    % Slightly tighten line spacing (leading)
+    \linespread{0.981}\selectfont
+
+    %----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Ensure footskip is non-zero to avoid fancyhdr warning
+\setlength{\footskip}{10pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% XeLaTeX outputs Unicode PDF by default; no extra setup needed for ATS parsing
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge Jeffrey Zang} \\ \vspace{1pt}
+    \href{https://jeffreyzang.com}{\underline{jeffreyzang.com}} $|$ \href{mailto:jeffrey.zang@uwaterloo.ca}{\underline{jeffrey.zang@uwaterloo.ca}} $|$ 
+    \href{https://linkedin.com/in/jeffreyzang}{\underline{linkedin.com/in/jeffreyzang}} $|$
+    \href{https://github.com/jeffrey-zang}{\underline{github.com/jeffrey-zang}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{Sep 2025 -- Apr 2030 (Expected)}
+      {Honours Bachelor of Computer Science (Co-Op)}{4.0/4.0 GPA}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Hack the 6ix \textbar \ \textnormal{\textit{React, Express, TypeScript, MongoDB, Azure}}}{Jan 2023 -- Sep 2025}
+    {Co-Chair}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Scaled Toronto's largest hackathon to 1100+ attendees, 200+ projects over 3 years, directing team of 30}
+        \resumeItem{Raised \$50K+ in sponsorship funding from companies such as Microsoft, TwelveLabs, Warp, Linear}
+        \resumeItem{Developed and deployed hacker dashboards using MERN stack, handling hundreds of concurrent requests}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {10x \textbar \ \textnormal{\textit{React Native, SwiftUI, Supabase, Express, TypeScript}}}{Jan 2025 -- May 2025}
+      {Founding Engineer}{(Remote) Manhattan, NY}
+      \resumeItemListStart
+        \resumeItem{Owned full development of AI app generating podcasts, articles, and quizzes (1,000+ users, profitable)}
+        \resumeItem{Designed concurrent request processing using Supabase, allowing users to generate multiple courses at once}
+        \resumeItem{Partnered directly with Blake Anderson (Founder, Cal AI) to drive 0 \(\rightarrow\) 1 launch with 500K+ social media views}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Nokia \textbar \ \textnormal{\textit{Python, Streamlit, Ollama, Docker}}}{Jul 2024 -- Aug 2024}
+    {Machine Learning Engineer Intern}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Architected LLM-powered assistant using Ollama with RAG over Confluence, adopted by 200+ employees}
+        \resumeItem{Deployed Python (Streamlit) dashboard and LLM to Linux server using Docker, CI/CD using GitHub Actions}
+        \resumeItem{Cut computational costs by \$1000/month and reduced deployment time by 80\% through optimizing document parsing pipeline}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {Feroot Security \textbar \ \textnormal{\textit{Vue.js, Node.js, Express}}}{Jan 2024 -- May 2024}
+    {Software Engineer Intern}{(Remote) Waterloo, ON}
+      \resumeItemListStart
+      \resumeItem{Spearheaded launch of web security extension, developing script, tracker, and cookie detection using VueJS}
+      \resumeItem{Secured 500+ web store downloads within 1mo, driving adoption and expanding product visibility}
+      \resumeItem{Refactored documentation site for new product launch, implementing JS markdown parsing and version control}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {SportsPort \textbar \ \textnormal{\textit{React, Express, TypeScript, MongoDB}}}{Aug 2023 -- Oct 2023}
+    {Software Developer Intern}{(Remote) Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Developed social feed and scheduling features in MERN stack, contributing to end-to-end platform architecture}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {uxSino \textbar \ \textnormal{\textit{Vue.js, Java (Spring Boot), MySQL}}}{Aug 2023 -- Oct 2023}
+    {Software Developer Intern}{(Remote) Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem{Implemented multi-account support in database monitoring platform, expanding functionality for enterprise users}
+      \resumeItemListEnd
+  
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\faGithub\ \href{https://github.com/jeffrey-zang/opus}{\textbf{\underline{Opus}}} $|$ \emph{TypeScript, Swift, Electron, Tailwind, Express, PostgreSQL}}{Jul 2025}
+          \resumeItemListStart
+            \resumeItem{State-of-the-art computer use agent, executing realtime mouse and keyboard inputs fully in the background}
+            \resumeItem{Implemented novel use of MacOS Accessibility API, AppleScript, JavaScript Injection, and Bash scripting}
+            \resumeItem{Achieved 0 \(\rightarrow\) 1 launch in 3 days, achieving 200,000+ social media views and 500+ users, inbound VC interest}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\faGithub\ \href{https://github.com/jeffrey-zang/ecorewards}{\textbf{\underline{EcoRewards}}} $|$ \emph{Remix, ShadCn, TypeScript, Express, PostgreSQL}}{Sep 2024}
+          \resumeItemListStart
+            \resumeItem{Hack the North winner; AI-powered receipt scanner app, allowing users to scan receipts and earn rewards}
+            \resumeItem{Rebuilt RBC Avion Rewards API, migrated schemas to PostgreSQL, implemented image processing pipeline}
+          \resumeItemListEnd
+      \resumeProjectHeading
+        {\faGithub\ \href{https://github.com/jeffrey-zang/motus}{\textbf{\underline{motus}}} $|$ \emph{Arduino, Python, C++, Raspberry Pi}}{Sep 2023}
+          \resumeItemListStart
+            \resumeItem{Vision-controlled wheelchair built in 24 hours for Hack the North, enabling users to move through eye tracking}
+            \resumeItem{Integrated AdHawk AR Glasses with Raspberry Pi, constructed wheelchair using 12-volt DC motors, Arduino}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: TypeScript, JavaScript, Python, Swift, Java, C/C++, SQL, Bash, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Next.js, Vue.js, Remix, Electron, Node.js, Express, Flask, Tailwind, Arduino} \\
+     \textbf{Developer Tools}{: Git, Docker, MongoDB, Azure, GCP, Kubernetes, Linux} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
