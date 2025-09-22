@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1758558502.22509 "Resume_JeffreyZang.xdv" "Resume_JeffreyZang.pdf" "Resume_JeffreyZang" 1758558502.5341 0
-  "Resume_JeffreyZang.xdv" 1758558502.20017 44320 770ad12d6683edaf098bfbb8cee031a5 "xelatex"
+["xdvipdfmx"] 1758571964.36254 "Resume_JeffreyZang.xdv" "Resume_JeffreyZang.pdf" "Resume_JeffreyZang" 1758571964.65955 0
+  "Resume_JeffreyZang.xdv" 1758571964.33951 44320 b6e62ea91afcd1a2f7c2b4b01f9ea811 "xelatex"
   (generated)
   "Resume_JeffreyZang.pdf"
   (rewritten before read)
-["xelatex"] 1758558501.18292 "/Users/jeffrey-zang/dev/latex/Resume_JeffreyZang.tex" "Resume_JeffreyZang.xdv" "Resume_JeffreyZang" 1758558502.53337 0
-  "/Users/jeffrey-zang/dev/latex/Resume_JeffreyZang.tex" 1758558501.09224 9829 65e2157fffd71fd011203d0b6eaab541 ""
+["xelatex"] 1758571963.38495 "/Users/jeffrey-zang/dev/latex/Resume_JeffreyZang.tex" "Resume_JeffreyZang.xdv" "Resume_JeffreyZang" 1758571964.65881 0
+  "/Users/jeffrey-zang/dev/latex/Resume_JeffreyZang.tex" 1758571963.23732 9829 cabe092efeb49ad2e2e208370b098808 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -88,9 +88,9 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Resume_JeffreyZang.aux" 1758558502.1989 677 a2bb7691e39c9dc66b79fbcf9da7b11f "xelatex"
-  "Resume_JeffreyZang.out" 1758558502.19937 390 8178769a591dae54593be5dc5893bd68 "xelatex"
-  "Resume_JeffreyZang.tex" 1758558501.09224 9829 65e2157fffd71fd011203d0b6eaab541 ""
+  "Resume_JeffreyZang.aux" 1758571964.3383 677 a2bb7691e39c9dc66b79fbcf9da7b11f "xelatex"
+  "Resume_JeffreyZang.out" 1758571964.33868 390 8178769a591dae54593be5dc5893bd68 "xelatex"
+  "Resume_JeffreyZang.tex" 1758571963.23732 9829 cabe092efeb49ad2e2e208370b098808 ""
   (generated)
   "Resume_JeffreyZang.aux"
   "Resume_JeffreyZang.log"
